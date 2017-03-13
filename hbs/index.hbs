@@ -1,0 +1,120 @@
+<section class="content-head need-init tracking-block" data-smd="content-head" data-quiz-index="1" module-quiz module-cinemagraphs>
+	<div class="video-container display-d">
+		<div class="placeholder display-d preload" data-src="{{PaidPost.assets}}images/{{index.head.img_name_d}}"></div>
+		<div class="placeholder display-t display-t-r preload" data-src="{{PaidPost.assets}}images/{{index.head.img_name_d}}"></div>
+		<div class="display-d preload cg-container" data-src="{{PaidPost.assets}}images/{{index.head.img_name_d}}" data-cg-webm-url="{{index.head.video_webm}}" data-cg-mp4-url="{{index.head.video_mp4}}"></div>
+	</div>
+	<div class="preload display-t display-m" data-src="{{PaidPost.assets}}images/{{index.head.img_name_m}}"></div>
+	{{!-- <div class="text-area-img display-m preload" data-src="{{PaidPost.assets}}images/{{index.head.img_name_m}}"></div> --}}
+	<div class="text-box">
+		<h1 class="head-title">{{index.head.title1}}</h1>
+		<div class="head-text">
+			<div class="head-box left-box">
+					<p class="text-body">{{{index.head.text_body1}}}</p>
+			</div>
+			<div class="head-box right-box">
+					<div class="text-area-img preload" data-src="{{PaidPost.assets}}images/{{index.head.factoid_img}}"></div>
+					{{!-- <p class="text-body">
+						{{{index.head.factoid}}}
+					</p> --}}
+			</div>
+		</div>
+		<h1>{{index.head.title2}}</h1>
+		<p class="text-body">{{{index.head.text_body2}}}</p>
+	</div>
+	{{> text-quiz index.head ppAssets=PaidPost.assets }}
+</section>
+<section class="content-driving need-init tracking-block" data-smd="content-driving" data-quiz-index="2" module-quiz module-cinemagraphs>
+	{{> text-area-img index.driving ppAssets=PaidPost.assets }}
+	{{> text-quiz index.driving ppAssets=PaidPost.assets }}
+</section>
+{{!--
+<section class="content-carousel need-init tracking-block" data-smd="content-carousel" module-customslick>
+	<div class="anim-box">
+		{{> pp-slideshow_v1 index.carousel}}
+	</div>
+</section>
+ --}}
+ <section class="content-power need-init tracking-block" data-smd="content-power" data-quiz-index="3" module-quiz module-cinemagraphs>
+	{{> text-area-img index.power ppAssets=PaidPost.assets}}
+	{{> text-quiz index.power ppAssets=PaidPost.assets }}
+</section>
+<section class="content-night need-init tracking-block" data-smd="content-night" data-quiz-index="4" module-quiz module-mask_animation>
+	{{> text-area-img-ani index.night ppAssets=PaidPost.assets }}
+	{{> text-quiz index.night ppAssets=PaidPost.assets }}
+</section>
+<section class="content-how need-init tracking-block" data-smd="content-how" data-quiz-index="5" module-quiz module-cinemagraphs>
+	{{> text-area-img index.how ppAssets=PaidPost.assets }}
+	{{> text-quiz index.how ppAssets=PaidPost.assets }}
+</section>
+<section class="content-illustrator need-init tracking-block" data-smd="content-illustrator">
+	<p>{{index.illustrator.title}}</p>
+</section>
+<section class="content-footer need-init tracking-block" data-smd="content-footer">
+	<a href="{{{index.footer.footer_link}}}" target="_blank">
+		<div class="content-box">
+			<div class="logo">
+				<div class="logo-img preload" data-src="{{PaidPost.assets}}images/footer_logo.png"></div>
+			</div>
+			<div class="copy">
+				<div class="title preload" data-src="{{PaidPost.assets}}images/footer_title.png"></div>
+				{{!-- <div class="title-box">
+				    <h1>{{index.footer.title1}}</h1>
+				    <h1>{{index.footer.title2}}</h1>
+		      	</div>
+		      	<p class="sub">{{index.footer.sub}}</p> --}}
+		      	<div class="cta">
+		      		<div class="cta-box">
+			      		<div class="box cta-copy">
+			      			{{!-- <p>{{index.footer.cta}}</p> --}}
+			      			<div class="cta_copy preload" data-src="{{PaidPost.assets}}images/footer_cta_copy.png"></div>
+			      		</div>
+			      		<div class="box cta-icon">
+			      			<div class="icon-img preload" data-src="{{PaidPost.assets}}images/cta_icon.png"></div>
+			      		</div>
+		      		</div>
+		      	</div>
+		      	<div class="legal preload" data-src="{{PaidPost.assets}}images/footer_legal.png"></div>
+		      	{{!-- <p class="legal">{{{index.footer.legal}}}</p> --}}
+			</div>
+		</div>
+{{!-- 		<div class="content-box">
+			<div class="title-box">
+			    <h1>{{index.footer.title}}</h1>
+		      <div class="cta">
+		        <p class="cta-copy">{{index.footer.cta}}</p>
+		      </div>
+			</div><div class="display-d down-text">
+			  <div class="down-box link-title">
+			    <p>
+			      {{{index.footer.link_title}}}
+			    </p>
+			  </div>
+			  <div class="down-box link-box">
+			    <div class="camera">
+		        	<div class="link3image preload" data-src="{{PaidPost.assets}}images/{{index.footer.cameraimage}}"></div>
+		        	<p class="link3" data-url="{{index.footer.link3}}">
+		        {{index.footer.link3_copy}}
+		            </p>
+		        </div>
+		        <div class="document">
+		        	<div class="link2image preload" data-src="{{PaidPost.assets}}images/{{index.footer.documentimage}}"></div>
+		        	<p class="link2" data-url="{{index.footer.link2}}">
+		            {{index.footer.link2_copy}}
+		            </p>
+		        </div>
+		        
+		        <div class="glasses">
+			    	<div class="link1image preload" data-src="{{PaidPost.assets}}images/{{index.footer.glassesimage}}"></div>
+			    	<p class="link1" data-url="{{index.footer.link1}}">
+		        {{index.footer.link1_copy}}
+		           </p>
+			    </div>
+		  </div>
+			</div>
+			<div class="logo">
+			  <div class="logo-img display-d display-t preload" data-src="{{PaidPost.assets}}images/footer_logo.png"></div>
+			</div>
+		</div> --}}
+	</a>
+</section>

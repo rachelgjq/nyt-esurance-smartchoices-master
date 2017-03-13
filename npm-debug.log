@@ -1,0 +1,679 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData grunt
+20 silly mapToRegistry name grunt
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'grunt',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'grunt',
+23 silly mapToRegistry   name: 'grunt',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/grunt
+25 silly fetchNamedPackageData jit-grunt
+26 silly mapToRegistry name jit-grunt
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'jit-grunt',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'jit-grunt',
+29 silly mapToRegistry   name: 'jit-grunt',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/jit-grunt
+31 silly fetchNamedPackageData load-grunt-config
+32 silly mapToRegistry name load-grunt-config
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'load-grunt-config',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'load-grunt-config',
+35 silly mapToRegistry   name: 'load-grunt-config',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-config
+37 silly fetchOtherPackageData scaffolding@github:nytpi/scaffolding#develop
+38 silly cache add args [ 'scaffolding@github:nytpi/scaffolding#develop', null ]
+39 verbose cache add spec scaffolding@github:nytpi/scaffolding#develop
+40 silly fetchNamedPackageData bourbon
+41 silly mapToRegistry name bourbon
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry data Result {
+44 silly mapToRegistry   raw: 'bourbon',
+44 silly mapToRegistry   scope: null,
+44 silly mapToRegistry   escapedName: 'bourbon',
+44 silly mapToRegistry   name: 'bourbon',
+44 silly mapToRegistry   rawSpec: '',
+44 silly mapToRegistry   spec: 'latest',
+44 silly mapToRegistry   type: 'tag' }
+45 silly mapToRegistry uri https://registry.npmjs.org/bourbon
+46 silly fetchOtherPackageData nytpi-sass-utils@github:nytpi/nytpi-sass-utils#development
+47 silly cache add args [ 'nytpi-sass-utils@github:nytpi/nytpi-sass-utils#development',
+47 silly cache add   null ]
+48 verbose cache add spec nytpi-sass-utils@github:nytpi/nytpi-sass-utils#development
+49 silly cache add parsed spec Result {
+49 silly cache add   raw: 'scaffolding@github:nytpi/scaffolding#develop',
+49 silly cache add   scope: null,
+49 silly cache add   escapedName: 'scaffolding',
+49 silly cache add   name: 'scaffolding',
+49 silly cache add   rawSpec: 'github:nytpi/scaffolding#develop',
+49 silly cache add   spec: 'github:nytpi/scaffolding#develop',
+49 silly cache add   type: 'hosted',
+49 silly cache add   hosted:
+49 silly cache add    { type: 'github',
+49 silly cache add      ssh: 'git@github.com:nytpi/scaffolding.git#develop',
+49 silly cache add      sshUrl: 'git+ssh://git@github.com/nytpi/scaffolding.git#develop',
+49 silly cache add      httpsUrl: 'git+https://github.com/nytpi/scaffolding.git#develop',
+49 silly cache add      gitUrl: 'git://github.com/nytpi/scaffolding.git#develop',
+49 silly cache add      shortcut: 'github:nytpi/scaffolding#develop',
+49 silly cache add      directUrl: 'https://raw.githubusercontent.com/nytpi/scaffolding/develop/package.json' } }
+50 verbose addRemoteGit caching github:nytpi/scaffolding#develop
+51 verbose addRemoteGit nytpi/scaffolding#develop is a repository hosted by github
+52 silly tryGitProto attempting to clone git://github.com/nytpi/scaffolding.git#develop
+53 silly tryClone cloning nytpi/scaffolding#develop via git://github.com/nytpi/scaffolding.git#develop
+54 verbose tryClone git-github-com-nytpi-scaffolding-git-develop-021ad123 not in flight; caching
+55 verbose correctMkdir /Users/kd_jiang/.npm/_git-remotes correctMkdir not in flight; initializing
+56 silly cache add parsed spec Result {
+56 silly cache add   raw: 'nytpi-sass-utils@github:nytpi/nytpi-sass-utils#development',
+56 silly cache add   scope: null,
+56 silly cache add   escapedName: 'nytpi-sass-utils',
+56 silly cache add   name: 'nytpi-sass-utils',
+56 silly cache add   rawSpec: 'github:nytpi/nytpi-sass-utils#development',
+56 silly cache add   spec: 'github:nytpi/nytpi-sass-utils#development',
+56 silly cache add   type: 'hosted',
+56 silly cache add   hosted:
+56 silly cache add    { type: 'github',
+56 silly cache add      ssh: 'git@github.com:nytpi/nytpi-sass-utils.git#development',
+56 silly cache add      sshUrl: 'git+ssh://git@github.com/nytpi/nytpi-sass-utils.git#development',
+56 silly cache add      httpsUrl: 'git+https://github.com/nytpi/nytpi-sass-utils.git#development',
+56 silly cache add      gitUrl: 'git://github.com/nytpi/nytpi-sass-utils.git#development',
+56 silly cache add      shortcut: 'github:nytpi/nytpi-sass-utils#development',
+56 silly cache add      directUrl: 'https://raw.githubusercontent.com/nytpi/nytpi-sass-utils/development/package.json' } }
+57 verbose addRemoteGit caching github:nytpi/nytpi-sass-utils#development
+58 verbose addRemoteGit nytpi/nytpi-sass-utils#development is a repository hosted by github
+59 silly tryGitProto attempting to clone git://github.com/nytpi/nytpi-sass-utils.git#development
+60 silly tryClone cloning nytpi/nytpi-sass-utils#development via git://github.com/nytpi/nytpi-sass-utils.git#development
+61 verbose tryClone git-github-com-nytpi-nytpi-sass-utils-git-development-bfc21509 not in flight; caching
+62 verbose correctMkdir /Users/kd_jiang/.npm/_git-remotes correctMkdir already in flight; waiting
+63 verbose request uri https://registry.npmjs.org/jit-grunt
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 09:48:52
+66 verbose request id 9119951900bc2b59
+67 verbose etag W/"580ff507-801d"
+68 verbose lastModified Wed, 26 Oct 2016 00:12:55 GMT
+69 http request GET https://registry.npmjs.org/jit-grunt
+70 verbose request uri https://registry.npmjs.org/load-grunt-config
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 09:48:52
+73 verbose etag W/"5821b9eb-c90a"
+74 verbose lastModified Tue, 08 Nov 2016 11:41:31 GMT
+75 http request GET https://registry.npmjs.org/load-grunt-config
+76 verbose request uri https://registry.npmjs.org/grunt
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 09:48:52
+79 verbose etag W/"58c248c6-189d4"
+80 verbose lastModified Fri, 10 Mar 2017 06:33:42 GMT
+81 http request GET https://registry.npmjs.org/grunt
+82 verbose request uri https://registry.npmjs.org/bourbon
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 09:48:52
+85 verbose etag W/"58b020f9-709f"
+86 verbose lastModified Fri, 24 Feb 2017 12:03:05 GMT
+87 http request GET https://registry.npmjs.org/bourbon
+88 info git [ 'config', '--get', 'remote.origin.url' ]
+89 info git [ 'clone',
+89 info git   '--template=/Users/kd_jiang/.npm/_git-remotes/_templates',
+89 info git   '--mirror',
+89 info git   'git://github.com/nytpi/scaffolding.git',
+89 info git   '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-021ad123' ]
+90 silly validateExistingRemote nytpi/nytpi-sass-utils#development remote.origin.url: git://github.com/nytpi/nytpi-sass-utils.git
+91 verbose validateExistingRemote nytpi/nytpi-sass-utils#development is updating existing cached remote /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-nytpi-sass-utils-git-development-bfc21509
+92 info git [ 'fetch', '-a', 'origin' ]
+93 verbose git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git://github.com/nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-021ad123: Cloning into bare repository '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-021ad123'...
+93 verbose git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git://github.com/nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-021ad123: fatal: remote error:
+93 verbose git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git://github.com/nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-021ad123:   Repository not found.
+94 silly tryHTTPS attempting to clone git+https://github.com/nytpi/scaffolding.git#develop
+95 silly tryClone cloning nytpi/scaffolding#develop via git+https://github.com/nytpi/scaffolding.git#develop
+96 verbose tryClone git-https-github-com-nytpi-scaffolding-git-develop-c22391df not in flight; caching
+97 verbose correctMkdir /Users/kd_jiang/.npm/_git-remotes correctMkdir not in flight; initializing
+98 info git [ 'clone',
+98 info git   '--template=/Users/kd_jiang/.npm/_git-remotes/_templates',
+98 info git   '--mirror',
+98 info git   'https://github.com/nytpi/scaffolding.git',
+98 info git   '/Users/kd_jiang/.npm/_git-remotes/git-https-github-com-nytpi-scaffolding-git-develop-c22391df' ]
+99 verbose updateRemote git fetch -a origin (git://github.com/nytpi/nytpi-sass-utils.git)
+100 verbose correctMkdir /Users/kd_jiang/.npm/_git-remotes correctMkdir not in flight; initializing
+101 verbose setPermissions nytpi/nytpi-sass-utils#development set permissions on /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-nytpi-sass-utils-git-development-bfc21509
+102 verbose resolveHead nytpi/nytpi-sass-utils#development original treeish: development
+103 info git [ 'rev-list', '-n1', 'development' ]
+104 silly resolveHead nytpi/nytpi-sass-utils#development resolved treeish: 21a6bd80fb65d47d81bf44101860d21e4e0046b2
+105 verbose resolveHead nytpi/nytpi-sass-utils#development resolved Git URL: git://github.com/nytpi/nytpi-sass-utils.git#21a6bd80fb65d47d81bf44101860d21e4e0046b2
+106 silly resolveHead Git working directory: /tmp/npm-1765-7fa9cfc3/git-cache-2d22df8a/21a6bd80fb65d47d81bf44101860d21e4e0046b2
+107 info git [ 'clone',
+107 info git   '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-nytpi-sass-utils-git-development-bfc21509',
+107 info git   '/tmp/npm-1765-7fa9cfc3/git-cache-2d22df8a/21a6bd80fb65d47d81bf44101860d21e4e0046b2' ]
+108 verbose cloneResolved nytpi/nytpi-sass-utils#development clone Cloning into '/tmp/npm-1765-7fa9cfc3/git-cache-2d22df8a/21a6bd80fb65d47d81bf44101860d21e4e0046b2'...
+108 verbose cloneResolved done.
+109 info git [ 'checkout', '21a6bd80fb65d47d81bf44101860d21e4e0046b2' ]
+110 verbose checkoutTreeish nytpi/nytpi-sass-utils#development checkout Note: checking out '21a6bd80fb65d47d81bf44101860d21e4e0046b2'.
+110 verbose checkoutTreeish
+110 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+110 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+110 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+110 verbose checkoutTreeish
+110 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+110 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+110 verbose checkoutTreeish
+110 verbose checkoutTreeish   git checkout -b <new-branch-name>
+110 verbose checkoutTreeish
+110 verbose checkoutTreeish HEAD is now at 21a6bd8... Chang package.json version to 2.3.0
+111 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+112 verbose updateSubmodules nytpi/nytpi-sass-utils#development submodule update
+113 verbose addLocalDirectory /Users/kd_jiang/.npm/nytpi-sass-utils/2.3.0/package.tgz not in flight; packing
+114 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+115 verbose tar pack [ '/Users/kd_jiang/.npm/nytpi-sass-utils/2.3.0/package.tgz',
+115 verbose tar pack   '/tmp/npm-1765-7fa9cfc3/git-cache-2d22df8a/21a6bd80fb65d47d81bf44101860d21e4e0046b2' ]
+116 verbose tarball /Users/kd_jiang/.npm/nytpi-sass-utils/2.3.0/package.tgz
+117 verbose folder /tmp/npm-1765-7fa9cfc3/git-cache-2d22df8a/21a6bd80fb65d47d81bf44101860d21e4e0046b2
+118 verbose addLocalTarball adding from inside cache /Users/kd_jiang/.npm/nytpi-sass-utils/2.3.0/package.tgz
+119 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+120 verbose addRemoteGit data._from: nytpi/nytpi-sass-utils#development
+121 verbose addRemoteGit data._resolved: git://github.com/nytpi/nytpi-sass-utils.git#21a6bd80fb65d47d81bf44101860d21e4e0046b2
+122 silly cache afterAdd nytpi-sass-utils@2.3.0
+123 verbose afterAdd /Users/kd_jiang/.npm/nytpi-sass-utils/2.3.0/package/package.json not in flight; writing
+124 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+125 verbose afterAdd /Users/kd_jiang/.npm/nytpi-sass-utils/2.3.0/package/package.json written
+126 silly resolveWithNewModule nytpi-sass-utils@2.3.0 checking installable status
+127 http 304 https://registry.npmjs.org/grunt
+128 verbose headers { date: 'Mon, 13 Mar 2017 01:48:52 GMT',
+128 verbose headers   via: '1.1 varnish',
+128 verbose headers   'cache-control': 'max-age=300',
+128 verbose headers   etag: 'W/"58c248c6-189d4"',
+128 verbose headers   age: '216',
+128 verbose headers   connection: 'keep-alive',
+128 verbose headers   'x-served-by': 'cache-lax8630-LAX',
+128 verbose headers   'x-cache': 'HIT',
+128 verbose headers   'x-cache-hits': '2',
+128 verbose headers   'x-timer': 'S1489369732.624167,VS0,VE0',
+128 verbose headers   vary: 'Accept-Encoding' }
+129 silly get cb [ 304,
+129 silly get   { date: 'Mon, 13 Mar 2017 01:48:52 GMT',
+129 silly get     via: '1.1 varnish',
+129 silly get     'cache-control': 'max-age=300',
+129 silly get     etag: 'W/"58c248c6-189d4"',
+129 silly get     age: '216',
+129 silly get     connection: 'keep-alive',
+129 silly get     'x-served-by': 'cache-lax8630-LAX',
+129 silly get     'x-cache': 'HIT',
+129 silly get     'x-cache-hits': '2',
+129 silly get     'x-timer': 'S1489369732.624167,VS0,VE0',
+129 silly get     vary: 'Accept-Encoding' } ]
+130 verbose etag https://registry.npmjs.org/grunt from cache
+131 verbose get saving grunt to /Users/kd_jiang/.npm/registry.npmjs.org/grunt/.cache.json
+132 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+133 http 304 https://registry.npmjs.org/load-grunt-config
+134 verbose headers { date: 'Mon, 13 Mar 2017 01:48:52 GMT',
+134 verbose headers   via: '1.1 varnish',
+134 verbose headers   'cache-control': 'max-age=300',
+134 verbose headers   etag: 'W/"5821b9eb-c90a"',
+134 verbose headers   age: '35',
+134 verbose headers   connection: 'keep-alive',
+134 verbose headers   'x-served-by': 'cache-lax8622-LAX',
+134 verbose headers   'x-cache': 'HIT',
+134 verbose headers   'x-cache-hits': '1',
+134 verbose headers   'x-timer': 'S1489369732.623951,VS0,VE0',
+134 verbose headers   vary: 'Accept-Encoding' }
+135 silly get cb [ 304,
+135 silly get   { date: 'Mon, 13 Mar 2017 01:48:52 GMT',
+135 silly get     via: '1.1 varnish',
+135 silly get     'cache-control': 'max-age=300',
+135 silly get     etag: 'W/"5821b9eb-c90a"',
+135 silly get     age: '35',
+135 silly get     connection: 'keep-alive',
+135 silly get     'x-served-by': 'cache-lax8622-LAX',
+135 silly get     'x-cache': 'HIT',
+135 silly get     'x-cache-hits': '1',
+135 silly get     'x-timer': 'S1489369732.623951,VS0,VE0',
+135 silly get     vary: 'Accept-Encoding' } ]
+136 verbose etag https://registry.npmjs.org/load-grunt-config from cache
+137 verbose get saving load-grunt-config to /Users/kd_jiang/.npm/registry.npmjs.org/load-grunt-config/.cache.json
+138 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+139 silly resolveWithNewModule load-grunt-config@0.19.2 checking installable status
+140 silly cache add args [ 'load-grunt-config@^0.19.1', null ]
+141 verbose cache add spec load-grunt-config@^0.19.1
+142 silly cache add parsed spec Result {
+142 silly cache add   raw: 'load-grunt-config@^0.19.1',
+142 silly cache add   scope: null,
+142 silly cache add   escapedName: 'load-grunt-config',
+142 silly cache add   name: 'load-grunt-config',
+142 silly cache add   rawSpec: '^0.19.1',
+142 silly cache add   spec: '>=0.19.1 <0.20.0',
+142 silly cache add   type: 'range' }
+143 silly addNamed load-grunt-config@>=0.19.1 <0.20.0
+144 verbose addNamed ">=0.19.1 <0.20.0" is a valid semver range for load-grunt-config
+145 silly addNameRange { name: 'load-grunt-config',
+145 silly addNameRange   range: '>=0.19.1 <0.20.0',
+145 silly addNameRange   hasData: false }
+146 silly mapToRegistry name load-grunt-config
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry data Result {
+149 silly mapToRegistry   raw: 'load-grunt-config',
+149 silly mapToRegistry   scope: null,
+149 silly mapToRegistry   escapedName: 'load-grunt-config',
+149 silly mapToRegistry   name: 'load-grunt-config',
+149 silly mapToRegistry   rawSpec: '',
+149 silly mapToRegistry   spec: 'latest',
+149 silly mapToRegistry   type: 'tag' }
+150 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-config
+151 verbose addNameRange registry:https://registry.npmjs.org/load-grunt-config not in flight; fetching
+152 silly resolveWithNewModule grunt@0.4.5 checking installable status
+153 silly cache add args [ 'grunt@^0.4.5', null ]
+154 verbose cache add spec grunt@^0.4.5
+155 silly cache add parsed spec Result {
+155 silly cache add   raw: 'grunt@^0.4.5',
+155 silly cache add   scope: null,
+155 silly cache add   escapedName: 'grunt',
+155 silly cache add   name: 'grunt',
+155 silly cache add   rawSpec: '^0.4.5',
+155 silly cache add   spec: '>=0.4.5 <0.5.0',
+155 silly cache add   type: 'range' }
+156 silly addNamed grunt@>=0.4.5 <0.5.0
+157 verbose addNamed ">=0.4.5 <0.5.0" is a valid semver range for grunt
+158 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+159 silly mapToRegistry name grunt
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'grunt',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   escapedName: 'grunt',
+162 silly mapToRegistry   name: 'grunt',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/grunt
+164 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+165 verbose get https://registry.npmjs.org/load-grunt-config not expired, no request
+166 silly addNameRange number 2 { name: 'load-grunt-config',
+166 silly addNameRange   range: '>=0.19.1 <0.20.0',
+166 silly addNameRange   hasData: true }
+167 silly addNameRange versions [ 'load-grunt-config',
+167 silly addNameRange   [ '0.3.0',
+167 silly addNameRange     '0.3.1',
+167 silly addNameRange     '0.4.0',
+167 silly addNameRange     '0.4.1',
+167 silly addNameRange     '0.5.0',
+167 silly addNameRange     '0.6.0',
+167 silly addNameRange     '0.6.1',
+167 silly addNameRange     '0.7.0',
+167 silly addNameRange     '0.7.1',
+167 silly addNameRange     '0.7.2',
+167 silly addNameRange     '0.8.0-beta.1',
+167 silly addNameRange     '0.8.0-beta.2',
+167 silly addNameRange     '0.8.0',
+167 silly addNameRange     '0.9.0',
+167 silly addNameRange     '0.9.1',
+167 silly addNameRange     '0.9.2',
+167 silly addNameRange     '0.10.0-beta.1',
+167 silly addNameRange     '0.10.0',
+167 silly addNameRange     '0.11.0',
+167 silly addNameRange     '0.12.0',
+167 silly addNameRange     '0.13.0',
+167 silly addNameRange     '0.13.1',
+167 silly addNameRange     '0.13.2',
+167 silly addNameRange     '0.14.0',
+167 silly addNameRange     '0.15.0',
+167 silly addNameRange     '0.16.0',
+167 silly addNameRange     '0.17.0',
+167 silly addNameRange     '0.17.1',
+167 silly addNameRange     '0.17.2',
+167 silly addNameRange     '0.18.0',
+167 silly addNameRange     '0.19.0',
+167 silly addNameRange     '0.19.1',
+167 silly addNameRange     '0.19.2' ] ]
+168 silly addNamed load-grunt-config@0.19.2
+169 verbose addNamed "0.19.2" is a plain semver version for load-grunt-config
+170 verbose get https://registry.npmjs.org/grunt not expired, no request
+171 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: true }
+172 silly addNameRange versions [ 'grunt',
+172 silly addNameRange   [ '0.1.0',
+172 silly addNameRange     '0.1.1',
+172 silly addNameRange     '0.1.2',
+172 silly addNameRange     '0.2.0',
+172 silly addNameRange     '0.2.1',
+172 silly addNameRange     '0.2.2',
+172 silly addNameRange     '0.2.3',
+172 silly addNameRange     '0.2.4',
+172 silly addNameRange     '0.2.5',
+172 silly addNameRange     '0.2.6',
+172 silly addNameRange     '0.2.7',
+172 silly addNameRange     '0.2.8',
+172 silly addNameRange     '0.2.9',
+172 silly addNameRange     '0.2.10',
+172 silly addNameRange     '0.2.11',
+172 silly addNameRange     '0.2.12',
+172 silly addNameRange     '0.2.13',
+172 silly addNameRange     '0.2.14',
+172 silly addNameRange     '0.2.15',
+172 silly addNameRange     '0.3.0',
+172 silly addNameRange     '0.3.1',
+172 silly addNameRange     '0.3.2',
+172 silly addNameRange     '0.3.3',
+172 silly addNameRange     '0.3.4',
+172 silly addNameRange     '0.3.5',
+172 silly addNameRange     '0.3.6',
+172 silly addNameRange     '0.3.7',
+172 silly addNameRange     '0.3.8',
+172 silly addNameRange     '0.3.9',
+172 silly addNameRange     '0.3.10',
+172 silly addNameRange     '0.3.11',
+172 silly addNameRange     '0.3.12',
+172 silly addNameRange     '0.3.13',
+172 silly addNameRange     '0.3.14',
+172 silly addNameRange     '0.3.15',
+172 silly addNameRange     '0.3.16',
+172 silly addNameRange     '0.3.17',
+172 silly addNameRange     '0.4.0',
+172 silly addNameRange     '0.4.1',
+172 silly addNameRange     '0.4.2',
+172 silly addNameRange     '0.4.3',
+172 silly addNameRange     '0.4.4',
+172 silly addNameRange     '0.4.5',
+172 silly addNameRange     '1.0.0-rc1',
+172 silly addNameRange     '1.0.0',
+172 silly addNameRange     '1.0.1',
+172 silly addNameRange     '0.3.13-a',
+172 silly addNameRange     '0.4.0-a',
+172 silly addNameRange     '0.4.0-rc1',
+172 silly addNameRange     '0.4.0-rc2',
+172 silly addNameRange     '0.4.0-rc3',
+172 silly addNameRange     '0.4.0-rc4',
+172 silly addNameRange     '0.4.0-rc5',
+172 silly addNameRange     '0.4.0-rc6',
+172 silly addNameRange     '0.4.0-rc7',
+172 silly addNameRange     '0.4.0-rc8' ] ]
+173 silly addNamed grunt@0.4.5
+174 verbose addNamed "0.4.5" is a plain semver version for grunt
+175 silly cache afterAdd load-grunt-config@0.19.2
+176 verbose afterAdd /Users/kd_jiang/.npm/load-grunt-config/0.19.2/package/package.json not in flight; writing
+177 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+178 silly cache afterAdd grunt@0.4.5
+179 verbose afterAdd /Users/kd_jiang/.npm/grunt/0.4.5/package/package.json not in flight; writing
+180 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+181 verbose afterAdd /Users/kd_jiang/.npm/grunt/0.4.5/package/package.json written
+182 verbose afterAdd /Users/kd_jiang/.npm/load-grunt-config/0.19.2/package/package.json written
+183 http 304 https://registry.npmjs.org/jit-grunt
+184 verbose headers { date: 'Mon, 13 Mar 2017 01:48:52 GMT',
+184 verbose headers   via: '1.1 varnish',
+184 verbose headers   'cache-control': 'max-age=300',
+184 verbose headers   etag: 'W/"580ff507-801d"',
+184 verbose headers   age: '178',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'x-served-by': 'cache-lax8633-LAX',
+184 verbose headers   'x-cache': 'HIT',
+184 verbose headers   'x-cache-hits': '1',
+184 verbose headers   'x-timer': 'S1489369732.624601,VS0,VE0',
+184 verbose headers   vary: 'Accept-Encoding' }
+185 silly get cb [ 304,
+185 silly get   { date: 'Mon, 13 Mar 2017 01:48:52 GMT',
+185 silly get     via: '1.1 varnish',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     etag: 'W/"580ff507-801d"',
+185 silly get     age: '178',
+185 silly get     connection: 'keep-alive',
+185 silly get     'x-served-by': 'cache-lax8633-LAX',
+185 silly get     'x-cache': 'HIT',
+185 silly get     'x-cache-hits': '1',
+185 silly get     'x-timer': 'S1489369732.624601,VS0,VE0',
+185 silly get     vary: 'Accept-Encoding' } ]
+186 verbose etag https://registry.npmjs.org/jit-grunt from cache
+187 verbose get saving jit-grunt to /Users/kd_jiang/.npm/registry.npmjs.org/jit-grunt/.cache.json
+188 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+189 http 304 https://registry.npmjs.org/bourbon
+190 verbose headers { date: 'Mon, 13 Mar 2017 01:48:52 GMT',
+190 verbose headers   via: '1.1 varnish',
+190 verbose headers   'cache-control': 'max-age=300',
+190 verbose headers   etag: 'W/"58b020f9-709f"',
+190 verbose headers   age: '35',
+190 verbose headers   connection: 'keep-alive',
+190 verbose headers   'x-served-by': 'cache-lax8625-LAX',
+190 verbose headers   'x-cache': 'HIT',
+190 verbose headers   'x-cache-hits': '1',
+190 verbose headers   'x-timer': 'S1489369732.731944,VS0,VE0',
+190 verbose headers   vary: 'Accept-Encoding' }
+191 silly get cb [ 304,
+191 silly get   { date: 'Mon, 13 Mar 2017 01:48:52 GMT',
+191 silly get     via: '1.1 varnish',
+191 silly get     'cache-control': 'max-age=300',
+191 silly get     etag: 'W/"58b020f9-709f"',
+191 silly get     age: '35',
+191 silly get     connection: 'keep-alive',
+191 silly get     'x-served-by': 'cache-lax8625-LAX',
+191 silly get     'x-cache': 'HIT',
+191 silly get     'x-cache-hits': '1',
+191 silly get     'x-timer': 'S1489369732.731944,VS0,VE0',
+191 silly get     vary: 'Accept-Encoding' } ]
+192 verbose etag https://registry.npmjs.org/bourbon from cache
+193 verbose get saving bourbon to /Users/kd_jiang/.npm/registry.npmjs.org/bourbon/.cache.json
+194 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+195 silly resolveWithNewModule jit-grunt@0.10.0 checking installable status
+196 silly cache add args [ 'jit-grunt@^0.10.0', null ]
+197 verbose cache add spec jit-grunt@^0.10.0
+198 silly cache add parsed spec Result {
+198 silly cache add   raw: 'jit-grunt@^0.10.0',
+198 silly cache add   scope: null,
+198 silly cache add   escapedName: 'jit-grunt',
+198 silly cache add   name: 'jit-grunt',
+198 silly cache add   rawSpec: '^0.10.0',
+198 silly cache add   spec: '>=0.10.0 <0.11.0',
+198 silly cache add   type: 'range' }
+199 silly addNamed jit-grunt@>=0.10.0 <0.11.0
+200 verbose addNamed ">=0.10.0 <0.11.0" is a valid semver range for jit-grunt
+201 silly addNameRange { name: 'jit-grunt', range: '>=0.10.0 <0.11.0', hasData: false }
+202 silly mapToRegistry name jit-grunt
+203 silly mapToRegistry using default registry
+204 silly mapToRegistry registry https://registry.npmjs.org/
+205 silly mapToRegistry data Result {
+205 silly mapToRegistry   raw: 'jit-grunt',
+205 silly mapToRegistry   scope: null,
+205 silly mapToRegistry   escapedName: 'jit-grunt',
+205 silly mapToRegistry   name: 'jit-grunt',
+205 silly mapToRegistry   rawSpec: '',
+205 silly mapToRegistry   spec: 'latest',
+205 silly mapToRegistry   type: 'tag' }
+206 silly mapToRegistry uri https://registry.npmjs.org/jit-grunt
+207 verbose addNameRange registry:https://registry.npmjs.org/jit-grunt not in flight; fetching
+208 silly resolveWithNewModule bourbon@4.3.3 checking installable status
+209 silly cache add args [ 'bourbon@*', null ]
+210 verbose cache add spec bourbon@*
+211 silly cache add parsed spec Result {
+211 silly cache add   raw: 'bourbon@*',
+211 silly cache add   scope: null,
+211 silly cache add   escapedName: 'bourbon',
+211 silly cache add   name: 'bourbon',
+211 silly cache add   rawSpec: '*',
+211 silly cache add   spec: '*',
+211 silly cache add   type: 'range' }
+212 silly addNamed bourbon@*
+213 verbose addNamed "*" is a valid semver range for bourbon
+214 silly addNameRange { name: 'bourbon', range: '*', hasData: false }
+215 silly mapToRegistry name bourbon
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: 'bourbon',
+218 silly mapToRegistry   scope: null,
+218 silly mapToRegistry   escapedName: 'bourbon',
+218 silly mapToRegistry   name: 'bourbon',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag' }
+219 silly mapToRegistry uri https://registry.npmjs.org/bourbon
+220 verbose addNameRange registry:https://registry.npmjs.org/bourbon not in flight; fetching
+221 verbose get https://registry.npmjs.org/jit-grunt not expired, no request
+222 silly addNameRange number 2 { name: 'jit-grunt', range: '>=0.10.0 <0.11.0', hasData: true }
+223 silly addNameRange versions [ 'jit-grunt',
+223 silly addNameRange   [ '0.0.1',
+223 silly addNameRange     '0.1.0',
+223 silly addNameRange     '0.1.1',
+223 silly addNameRange     '0.1.2',
+223 silly addNameRange     '0.2.0',
+223 silly addNameRange     '0.2.1',
+223 silly addNameRange     '0.2.2',
+223 silly addNameRange     '0.2.3',
+223 silly addNameRange     '0.3.0',
+223 silly addNameRange     '0.3.1',
+223 silly addNameRange     '0.3.2',
+223 silly addNameRange     '0.4.0',
+223 silly addNameRange     '0.4.1',
+223 silly addNameRange     '0.4.2',
+223 silly addNameRange     '0.5.0',
+223 silly addNameRange     '0.6.0',
+223 silly addNameRange     '0.7.0',
+223 silly addNameRange     '0.7.1',
+223 silly addNameRange     '0.8.0',
+223 silly addNameRange     '0.9.0',
+223 silly addNameRange     '0.9.1',
+223 silly addNameRange     '0.10.0' ] ]
+224 silly addNamed jit-grunt@0.10.0
+225 verbose addNamed "0.10.0" is a plain semver version for jit-grunt
+226 verbose get https://registry.npmjs.org/bourbon not expired, no request
+227 silly addNameRange number 2 { name: 'bourbon', range: '*', hasData: true }
+228 silly addNameRange versions [ 'bourbon',
+228 silly addNameRange   [ '4.1.1',
+228 silly addNameRange     '4.2.0-pre',
+228 silly addNameRange     '4.2.0-beta',
+228 silly addNameRange     '4.2.0',
+228 silly addNameRange     '4.2.1',
+228 silly addNameRange     '4.2.2',
+228 silly addNameRange     '4.2.3',
+228 silly addNameRange     '4.2.4',
+228 silly addNameRange     '4.2.5',
+228 silly addNameRange     '4.2.6',
+228 silly addNameRange     '5.0.0-beta.4',
+228 silly addNameRange     '5.0.0-beta.5',
+228 silly addNameRange     '4.2.7',
+228 silly addNameRange     '5.0.0-beta.6',
+228 silly addNameRange     '5.0.0-beta.7',
+228 silly addNameRange     '4.3.0',
+228 silly addNameRange     '4.3.1',
+228 silly addNameRange     '4.3.2',
+228 silly addNameRange     '4.3.3' ] ]
+229 silly addNamed bourbon@4.3.3
+230 verbose addNamed "4.3.3" is a plain semver version for bourbon
+231 silly cache afterAdd jit-grunt@0.10.0
+232 verbose afterAdd /Users/kd_jiang/.npm/jit-grunt/0.10.0/package/package.json not in flight; writing
+233 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+234 silly cache afterAdd bourbon@4.3.3
+235 verbose afterAdd /Users/kd_jiang/.npm/bourbon/4.3.3/package/package.json not in flight; writing
+236 verbose correctMkdir /Users/kd_jiang/.npm correctMkdir not in flight; initializing
+237 verbose afterAdd /Users/kd_jiang/.npm/jit-grunt/0.10.0/package/package.json written
+238 verbose afterAdd /Users/kd_jiang/.npm/bourbon/4.3.3/package/package.json written
+239 verbose git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror https://github.com/nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-https-github-com-nytpi-scaffolding-git-develop-c22391df: Cloning into bare repository '/Users/kd_jiang/.npm/_git-remotes/git-https-github-com-nytpi-scaffolding-git-develop-c22391df'...
+239 verbose git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror https://github.com/nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-https-github-com-nytpi-scaffolding-git-develop-c22391df: remote: Invalid username or password.
+239 verbose git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror https://github.com/nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-https-github-com-nytpi-scaffolding-git-develop-c22391df: fatal: Authentication failed for 'https://github.com/nytpi/scaffolding.git/'
+240 silly trySSH attempting to clone git@github.com:nytpi/scaffolding.git#develop
+241 silly tryClone cloning nytpi/scaffolding#develop via git@github.com:nytpi/scaffolding.git#develop
+242 verbose tryClone git-github-com-nytpi-scaffolding-git-develop-55a5ef26 not in flight; caching
+243 verbose correctMkdir /Users/kd_jiang/.npm/_git-remotes correctMkdir not in flight; initializing
+244 info git [ 'clone',
+244 info git   '--template=/Users/kd_jiang/.npm/_git-remotes/_templates',
+244 info git   '--mirror',
+244 info git   'git@github.com:nytpi/scaffolding.git',
+244 info git   '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26' ]
+245 error git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26: Cloning into bare repository '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26'...
+245 error git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26: Host key verification failed.
+245 error git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26: fatal: Could not read from remote repository.
+245 error git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26:
+245 error git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26: Please make sure you have the correct access rights
+245 error git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26: and the repository exists.
+246 silly fetchPackageMetaData Error: Command failed: git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26
+246 silly fetchPackageMetaData Cloning into bare repository '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26'...
+246 silly fetchPackageMetaData Host key verification failed.
+246 silly fetchPackageMetaData fatal: Could not read from remote repository.
+246 silly fetchPackageMetaData
+246 silly fetchPackageMetaData Please make sure you have the correct access rights
+246 silly fetchPackageMetaData and the repository exists.
+246 silly fetchPackageMetaData
+246 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+246 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+246 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+246 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+246 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+246 silly fetchPackageMetaData  error for scaffolding@github:nytpi/scaffolding#develop { Error: Command failed: git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26
+246 silly fetchPackageMetaData Cloning into bare repository '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26'...
+246 silly fetchPackageMetaData Host key verification failed.
+246 silly fetchPackageMetaData fatal: Could not read from remote repository.
+246 silly fetchPackageMetaData
+246 silly fetchPackageMetaData Please make sure you have the correct access rights
+246 silly fetchPackageMetaData and the repository exists.
+246 silly fetchPackageMetaData
+246 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+246 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+246 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+246 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+246 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+246 silly fetchPackageMetaData   killed: false,
+246 silly fetchPackageMetaData   code: 128,
+246 silly fetchPackageMetaData   signal: null,
+246 silly fetchPackageMetaData   cmd: 'git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26' }
+247 silly rollbackFailedOptional Starting
+248 silly rollbackFailedOptional Finishing
+249 silly runTopLevelLifecycles Starting
+250 silly runTopLevelLifecycles Finishing
+251 silly install printInstalled
+252 verbose stack Error: Command failed: git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26
+252 verbose stack Cloning into bare repository '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26'...
+252 verbose stack Host key verification failed.
+252 verbose stack fatal: Could not read from remote repository.
+252 verbose stack
+252 verbose stack Please make sure you have the correct access rights
+252 verbose stack and the repository exists.
+252 verbose stack
+252 verbose stack     at ChildProcess.exithandler (child_process.js:206:12)
+252 verbose stack     at emitTwo (events.js:106:13)
+252 verbose stack     at ChildProcess.emit (events.js:191:7)
+252 verbose stack     at maybeClose (internal/child_process.js:877:16)
+252 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+253 verbose cwd /Users/kd_jiang/Downloads/esurance-smartchoices-master
+254 error Darwin 15.6.0
+255 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+256 error node v6.7.0
+257 error npm  v3.10.3
+258 error code 128
+259 error Command failed: git clone --template=/Users/kd_jiang/.npm/_git-remotes/_templates --mirror git@github.com:nytpi/scaffolding.git /Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26
+259 error Cloning into bare repository '/Users/kd_jiang/.npm/_git-remotes/git-github-com-nytpi-scaffolding-git-develop-55a5ef26'...
+259 error Host key verification failed.
+259 error fatal: Could not read from remote repository.
+259 error
+259 error Please make sure you have the correct access rights
+259 error and the repository exists.
+260 error If you need help, you may report this error at:
+260 error     <https://github.com/npm/npm/issues>
+261 verbose exit [ 1, true ]

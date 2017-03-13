@@ -1,0 +1,209 @@
+{
+  head: {
+    img_name_d: "video1_d.jpg",
+    img_name_m: "video1_m.gif",
+    video_webm: "da16dc6300d60b5bf152166f5fc482fd_443202_278829027",
+    video_mp4: "da16dc6300d60b5bf152166f5fc482fd_443202_278829024",
+    title1: "Smart Choices, Better Lives",
+    text_body1: "Most Americans find themselves spending an awful lot of time in their cars and their homes. So much in fact that it once made great fodder for TV writers imagining fantastical possibilities for both realms. In the 1980s, a fireproof car with the ability to give its driver law-enforcement advice was the fantasy behind one popular prime-time show. Today smart cars are using the latest tech to communicate with drivers, move semi-autonomously and even save lives in the process. In the '60s, a sassy robot-cum-vacuum cleaner was a main character on a classic Saturday morning cartoon. Now, app-enabled smart home technology allows homeowners to do everything from prepare meals to monitor their laundry. No longer sci-fi, forward-looking people who own cars and/or homes are taking a wiser, tech-driven approach to daily living that helps make their lives safer, less expensive and way <span class='last-word'>more stress-free.</span>",
+    factoid_img: "1stP_01.png",
+    title2: "Cooking Smart",
+    text_body2: "Ever imagine you could program your telephone to perfectly cook a piece of fish? Lo and behold, that day has come. Thanks to advances in both cookware and kitchen appliances, homeowners are not only becoming instant gourmet chefs, but are also helping to prevent accidents and fires as well. Inventions such as skillets built with internal thermometers guide you step by step in your cooking process and alert you to high-heat levels via mobile apps. This way, your cookware can tell you when your food is done or even operate on autopilot and turn itself off — well before any <span class='last-word'>mishaps occur.</sapn>",
+    choice: {
+      quiz_head_text_d: "Quiz:",
+      quiz_head_text_m: "Quiz",
+      quiz_question_text: "If there's a fire in your home, what's the likelihood it started <span class='last-word'>in the kitchen?</span>",
+      quiz_brief_d: "(Click to select your answer.)",
+      quiz_brief_t: "(Tap to select your answer.)",
+      choice_img_a: "5.png",
+      choice_a: "5%",
+      choice_img_b: "15.png",
+      choice_b: "15%",
+      choice_img_c: "45.png",
+      choice_c: "45%",
+      choice_img_d: "75.png",
+      choice_d: "75%",
+      correct_choice: 2,
+      correct_answer: "Yes!",
+      incorrect_answer: "Oops!",
+      elaboration: "Do you have a tendency to get distracted while you’re in the middle of preparing dinner on the stove? It's no joke. According to the National Fire Protection agency, 45 percent of home fires are caused by cooking, resulting in over a $1 billion in property damage and 5,400 civilian injuries across the country during a five-year study period. The biggest factor? Leaving the <span class='last-word'>cooking unattended.</sapn>",
+      name: "source",
+      source: "[Source: Home Fires Involving Cooking Equipment, <span class='last-word'>November 2015, NFPA]</span>"
+    }
+  },
+  driving: {
+    img_name_d: "video2_d.jpg",
+    img_name_m: "video2_m.gif",
+    video_webm: "375c49176c7c0be5efa21f97cd42660c_446565_279395004",
+    video_mp4: "375c49176c7c0be5efa21f97cd42660c_446565_279395007",
+    title: "Driving Through <span class='last-word'>the Clouds</span>",
+    text_body: "Purchasing a Wi-Fi service for your car has generally been marketed as a convenient way to access the internet for you and your family while you travel — movies, news and email all on the go. But with automakers increasing the technological capabilities of their vehicles, Over-the-Air (OTA) enabled cars — which use Wi-Fi or LTE to transmit information — are now starting to efficiently solve certain safety issues, such as remote software updates after factory recalls. OTA is a big win for both drivers and car manufacturers, saving money, time and, most <span class='last-word'>importantly, lives.</span>",
+    choice: {
+      quiz_head_text_d: "Quiz:",
+      quiz_head_text_m: "Quiz",
+      quiz_question_text: "How many car owners respond to factory recalls for <span class='last-word'>their vehicles?</span>",
+      quiz_brief_d: "(Click to select your answer.)",
+      quiz_brief_t: "(Tap to select your answer.)",
+      choice_img_a: "92.png",
+      choice_a: "92%",
+      choice_img_b: "35.png",
+      choice_b: "35%",
+      choice_img_c: "50.png",
+      choice_c: "50%",
+      choice_img_d: "70.png",
+      choice_d: "70%",
+      correct_choice: 3,
+      correct_answer: "Yes!",
+      incorrect_answer: "Oops!",
+      name: "smart-tip",
+      source: "Smart tip: You can use your Vehicle Identification Number (VIN) to find out if your car has been recalled by looking it up on this <span class='last-word'> NHTSA <a href='https://vinrcl.safercar.gov/vin/' target='_blank'>website</a>.</span>",
+      elaboration: "The average response rate to a vehicle recall is about 70 percent, according to the National Highway Traffic Safety Administration. As more car manufacturers increase their OTA services, it will be much easier for drivers to detect problems with their cars, and in some cases, have them repaired without bothering with their dealer or mechanic <span class='last-word'>at all.</sapn>"
+    }
+  },
+  carousel: {
+    slides: [
+      single_slider: {
+        image: "images/eye.png",
+        info: {
+          caption: "Eye Tracking",
+          credit: "Technology that assesses whether or not eyes are focused on the road ahead or exhibiting signs of drowsiness or distraction can set off alarms, including seat vibrations to ensure <span class='last-word'>driver alertness.</sapn>"
+        }
+      },
+      single_slider: {
+        image: "images/faucet.png",
+        info: {
+          caption: "Faucets",
+          credit: "Beyond eliminating germs through touch-free operation, electronic faucets work more efficiently through allowing precise water flow <span class='last-word'>and temperature.</span>"
+        }
+      },
+      single_slider: {
+        image: "images/lightbulb.png",
+        info: {
+          caption: "Light bulbs",
+          credit: "Wireless, LED bulbs help deter burglars, facilitate better sleep, as well as color-adjust <span class='last-word'>for entertainment.</span>"
+        }
+      },
+      single_slider: {
+        image: "images/brakes.png",
+        info: {
+          caption: "Brakes",
+          credit: "Using cameras, lasers, and radar, Automatic Emergency Brake technology automatically stops a car if it senses there is going to be a collision and has led to nearly 40% less <span class='last-word'>rear-end accidents.</span>"
+        }
+      },
+      single_slider: {
+        image: "images/thermo.png",
+        info: {
+          caption: "Thermostats",
+          credit: "Wi-Fi-enabled thermostats can be controlled via apps to efficiently heat and cool your home, lowering your energy bill and even <span class='last-word'>preventing fires.</span>"
+        }
+      },
+    ]
+  },
+  power: {
+    img_name_d: "video3_d.jpg",
+    img_name_m: "video3_m.gif",
+    video_webm: "368cf03b77085d3141a9122866c0d132_446586_279406518",
+    video_mp4: "368cf03b77085d3141a9122866c0d132_446586_279402723",
+    title: "Power Point",
+    text_body: "What uses more power: leaving your laptop charging while you sleep at night or watching a few hours of TV before bed? From smart plugs to connected home systems that track electronic signatures and itemize their energy usage in a mobile app, you can understand exactly where you’re spending money to power everything in your house. With this technology, you’ll finally know whether or not it’s worth it to replace something with a more energy efficient model or realize how important it is to adjust some of your <span class='last-word'>daily patterns.</span>",
+    choice: {
+      quiz_head_text_d: "Quiz:",
+      quiz_head_text_m: "Quiz",
+      quiz_question_text: "Which practice uses the most energy in an average <span class='last-word'>American household?</span>",
+      quiz_brief_d: "(Click to select your answer.)",
+      quiz_brief_t: "(Tap to select your answer.)",
+      choice_img_a: "laundry.png",
+      choice_a: "Washing <span class='last-word'>your clothes</span>",
+      choice_img_b: "laptop.png",
+      choice_b: "Using your laptop to <span class='last-word'>stream a movie</span>",
+      choice_img_c: "washing_machine.png",
+      choice_c: "Running your <span class='last-word'>dishwasher</span>",
+      choice_img_d: "microwave.png",
+      choice_d: "Microwaving <span class='last-word'>leftovers</span>",
+      correct_choice: 3,
+      correct_answer: "Yes!",
+      incorrect_answer: "Oops!",
+      elaboration: "You might think twice before microwaving your dinner tonight. Laundering your clothes in an average washing machine requires about 255 watts while streaming movies on your notebook PC uses about 60. Using a dishwasher consumes about 330 watts. Meanwhile, an average microwave? A whopping <span class='last-word'>1500 watts.</span>",
+      name: "source",
+      source: "[Source: <a href='http://energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use' target='_blank'>http://energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use</a>]"
+    }
+  },
+  night: {
+    img_name_d_bottom: "nightrider_01.jpg",
+    img_name_d_top: "nightrider_02.jpg",
+    img_name_m: "video4_m.jpg",
+    title: "Night Rider",
+    text_body: "As the sun goes down and the ability to see what’s coming ahead becomes impaired, drivers nearly double their chances of getting into accidents. Using infrared technology and algorithms that sense heat, night vision systems in cars alert drivers to oncoming dangers beyond the scope of headlights, like pedestrians, bicyclists and animals. When a road block is near, sensors detect an accident before it happens, sending warnings that appear on displays or, more urgently, through <span class='last-word'>audio alerts.</span>",
+    choice: {
+      quiz_head_text_d: "Quiz:",
+      quiz_head_text_m: "Quiz",
+      quiz_question_text: "How much on average does a collision with a deer cost drivers in <span class='last-word'>property damage?</span>",
+      quiz_brief_d: "(Click to select your answer.)",
+      quiz_brief_t: "(Tap to select your answer.)",
+      choice_img_a: "550.png",
+      choice_a: "$550",
+      choice_img_b: "3200.png",
+      choice_b: "$3,200",
+      choice_img_c: "7300.png",
+      choice_c: "$7,300",
+      choice_img_d: "1300.png",
+      choice_d: "$1,300",
+      name: "smart-tip",
+      source: "Smart Tip: Be sure your insurance policy includes comprehensive coverage, which you can read more about <a href='https://www.esurance.com/info/car/myth-comprehensive-covers-everything' target='_blank'>here</a>. Hitting an animal like a deer would not be insured under regular <span class='last-word'>collision coverage.</span>",
+      correct_choice: 1,
+      correct_answer: "Yes!",
+      incorrect_answer: "Oops!",
+      elaboration: "Be particularly vigilant in November, which is both wildlife mating season and the beginning of major holiday travel. Travelers in cars are three times as likely to hit a deer this month than in <span class='last-word'>other months.</span>"
+    }
+  },
+  how: {
+    img_name_d: "video5_d.jpg",
+    img_name_m: "video5_m.gif",
+    video_webm: "ed635f29a5cc989ad33717dae268f9e2_445707_278814093",
+    video_mp4: "ed635f29a5cc989ad33717dae268f9e2_445707_278814090",
+    title: "How Am I Driving?",
+    text_body: "Much like the wearables that track steps, cars can now be outfitted with a black-box-like telematics gadget (or <a href='https://www.esurance.com/drivesense-mobile-app' target='_blank'>you can use an app</a>) that monitors your driving habits, such as if you tend to speed, aren’t paying attention to stop lights or spend a lot of time on the road. Your data is recorded and assessed, providing information to help you improve your driving skills and even earn you discounts with insurance companies. For example, if you skip driving during commuting hours, you reduce the chance of getting into an accident which could you earn you a <span class='last-word'>lower premium.</span>",
+    choice: {
+      quiz_head_text_d: "Quiz:",
+      quiz_head_text_m: "Quiz",
+      quiz_question_text: "Which kind of driver is most likely to violate <span class='last-word'>traffic laws?</span>",
+      quiz_brief_d: "(Click to select your answer.)",
+      quiz_brief_t: "(Tap to select your answer.)",
+      choice_img_a: "lady70.png",
+      choice_a: "70-year-old female",
+      choice_img_b: "lady16.png",
+      choice_b: "16-year-old female",
+      choice_img_c: "lady30.png",
+      choice_c: "30-year-old female",
+      choice_img_d: "man.png",
+      choice_d: "Any-age male",
+      correct_choice: 3,
+      name: "smart-tip",
+      source: "Smart tip: By maintaining a clean driving record for a minimum of three years, <span class='last-word'><a href='https://www.esurance.com/insurance/car/discounts' target='_blank'>you could save as much as 40 percent off</a></span> your monthly premium using <span class='last-word'>a good-driver discount.</span>",
+      correct_answer: "Yes!",
+      incorrect_answer: "Oops!",
+      elaboration: " While men are 13 percent more likely to get traffic tickets, in particular for speeding, women are 2 percent more likely to receive <span class='last-word'>parking violations.</span>"
+    }
+  },
+  illustrator: {
+    title: "Illustrations and animation by Ege Soyuer"
+  },
+  footer: {
+    footer_link: "//esurance.com/quote1203",
+    title1: "save on car insurance ",
+    title2: "the smart way",
+    sub: "see how much you could save",
+    cta: "get a quote",
+    legal: "Not available in all states. <span class='last-word'>Allstate products not available through Esurance.</span>"
+    # link_title: "Download these apps for help in making the right <span class='last-word'>insurance decisions:</span>",
+    # link1_copy: "Photo Auto Claims",
+    # link1: "https://www.esurance.com/photo-claims",
+    # link2_copy: "Coverage Counseling",
+    # link2: "https://www.esurance.com/coverage-counselor",
+    # link3: "https://www.esurance.com/diy-home-inspection-app",
+    # link3_copy: "DIY Home Inspection",
+    # glassesimage: "glasses.png",
+    # documentimage: "document.png",
+    # cameraimage: "camera.png"
+  }
+}

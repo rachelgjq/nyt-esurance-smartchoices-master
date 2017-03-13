@@ -1,0 +1,48 @@
+<div class="quiz-box" data-answer="{{choice.correct_choice}}">
+	<div class="anim-box">
+		<div class="content-box question-box">
+			<h1 class="display-d display-t">{{choice.quiz_head_text_d}}</h1>
+			<h1 class="display-m">{{choice.quiz_head_text_m}}</h1>
+			<div class="qustion-d">
+				<p class="question">{{{choice.quiz_question_text}}}</p>
+				<p class="brief display-d">{{{choice.quiz_brief_d}}}</p>
+				<p class="brief display-t display-m">{{{choice.quiz_brief_t}}}</p>
+			</div>
+		</div>
+		{{!-- <div class="return-btn"></div> --}}
+		<div class="content-box choice-box">
+			<ul class="choice-content">
+				<li class="btn-a">
+					<div class="choice-btn preload" data-src="{{ppAssets}}images/{{choice.choice_img_a}}"></div>
+						<p>
+							{{{choice.choice_a}}}
+						</p>
+				</li>
+				<li class="btn-b">
+					<div class="choice-btn preload" data-src="{{ppAssets}}images/{{choice.choice_img_b}}"></div>
+						<p>
+							{{{choice.choice_b}}}
+						</p>
+				</li>
+				<li class="btn-c">
+					<div class="choice-btn preload" data-src="{{ppAssets}}images/{{choice.choice_img_c}}"></div>
+						<p>
+							{{{choice.choice_c}}}
+						</p>
+				</li>
+				<li class="btn-d">
+					<div class="choice-btn preload" data-src="{{ppAssets}}images/{{choice.choice_img_d}}"></div>
+						<p>
+							{{{choice.choice_d}}}
+						</p>
+				</li>
+			</ul>
+			<div class="anwser-box">
+				<h2 class="correct-answer">{{choice.correct_answer}}</h2>
+				<h2 class="incorrect-answer">{{choice.incorrect_answer}}</h2>
+				<p>{{{choice.elaboration}}}</p>
+			</div>
+		</div>
+		<p class="{{choice.name}}">{{{choice.source}}}</p>
+	</div>
+</div>

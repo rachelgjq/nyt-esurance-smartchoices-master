@@ -1,0 +1,35 @@
+{
+  "name": "esurance-smart-choices-better-lives",
+  "private": true,
+  "author": "Ad Platform Innovations",
+  "version": "1.0.0",
+  "PaidPost": {
+    "clientName": "Esurance",
+    "clientPath": "esurance",
+    "clientLink": "https://www.esurance.com/",
+    "clientLogoPath": "images/logo.jpg",
+    "projectName": "Smart Choices, Better Lives",
+    "projectPath": "smart-choices-better-lives",
+    "showClientName": false,
+    "app": ".",
+    "dev": "build/dev",
+    "standalone": "build/standalone",
+    "dist": "build/dist",
+    "temp": "build/.tmp",
+    "assetsServer": "https://paidpost-assets.nyt.com/paidpost/",
+    "ajaxAssetsServer": "https://paidpost-assets.nyt.com/paidpost/",
+    "videoAssetsServer": "https://video1.nytimes.com/paidpost/",
+    "browserRefresh": true,
+    "curlUrl": "http://paidpost.nytimes.com/hewlett-packard/welcome-to-the-idea-economy.html",
+    "curlContainerSelector": "#story"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-config": "^0.19.1",
+    "scaffolding": "github:nytpi/scaffolding#develop"
+    ,
+    "bourbon": "*",
+    "nytpi-sass-utils": "github:nytpi/nytpi-sass-utils#development"
+  }
+}
